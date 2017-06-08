@@ -1,0 +1,27 @@
+*{
+  box-sizing : border-box;
+  outline: 1px solid rgba(255, 0, 0, 0.2);
+}
+img{
+  display: block;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: #1E8BC3;
+}
+body{
+ width: 760px;
+ background-color: #fff;
+}
+div{
+    font-size: 4em;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 0.25em;
+}
+header{
+  background-color: #2A86D2;
+  color: #fff;
+  font-size: 22px;
+}
