@@ -1,27 +1,146 @@
-*{
-  box-sizing : border-box;
-  outline: 1px solid rgba(255, 0, 0, 0.2);
+*
+{
+    box-sizing: border-box;
+    /*outline: 1px solid rgba(255, 0, 0, 0.2);*/
 }
-img{
-  display: block;
-  width: 100%;
+img
+{
+    display: block;
+
+    width: 100%;
 }
-a{
-  text-decoration: none;
-  color: #1E8BC3;
+a
+{
+    text-decoration: none;
+
+    color: #1e8bc3;
 }
-body{
- width: 760px;
- background-color: #fff;
+body
+{
+    width: 60vw;
+    margin: 0px auto;
+    padding: 0px 20px;
+    text-align: center;
 }
-div{
-    font-size: 4em;
-    font-weight: bold;
-    background-color: #fff;
-    padding: 0.25em;
+.header
+{
+    font-family: sans-serif;
+    font-size: 30px;
+
+    width: 100%;
+    height: 100px;
+
+    color: #fff;
+    background-color: #3e8acc;
 }
-header{
-  background-color: #2A86D2;
-  color: #fff;
-  font-size: 22px;
+.fieldDiv
+{
+    display: block;
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+
+    border: 2px solid #ccd1d4;
+    border-radius: 3px;
+}
+.span {
+     margin: 2%;
+     margin-left: 0px;
+     color: #A1A6A8;
+}
+.fa{
+     color: #A1A6A8;
+}
+.fa-comments {
+  padding-bottom: 7%;
+}
+.wrapper
+{
+    display: block;
+
+    width: 675px;
+    margin: 0px auto;
+
+    border: 2px solid #c1c1c1;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #c1c1c1;
+}
+.wrapper
+{
+    width: 675px;
+    margin: 50px auto;
+
+    border: 2px solid #c1c1c1;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #c1c1c1;
+}
+
+.wrapper .header
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 25px;
+    width: 100%;
+    height: 100px;
+    padding-left: 6%;
+    color: #fff;
+    background-color: #3e8acc;
+}
+
+.wrapper .header .title
+{
+    /*display: inline-block;*/
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.wrapper .fields
+{
+    padding: 25px;
+}
+
+.wrapper .fields input,
+.wrapper .fields textarea,
+.wrapper .fields select
+{
+    font-size: 15px;
+    border: 0px;
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.wrapper .fields textarea
+{
+    height: 125px;
+    padding: 15px;
+}
+
+.wrapper .footer
+{
+    margin-right: 25%;
+    padding: 15px;
+    background-color: #c8def1;
+}
+.footer{
+     display: block;
+     height: 100px;
+     width: 100%;
+     border-radius: 3px;
+     background-color: #267bc5;
+     margin-top: 5%;
+}
+.footer button{
+     font-size: 15px;
+     height: 50px;
+     width: 120px;
+     color: #fff;
+     background-color: #267bc5;
+     border-radius: 3px;
+     float: left;
+     margin-left: 6%;
 }

@@ -64,7 +64,7 @@ var formData = [
   },
   {
     "type": "tel",
-    "label": "Mobil Number",
+    "label": "Mobile Number",
     "id": "user-mobile",
     "icon": "fa-mobile-phone",
     "options": []
